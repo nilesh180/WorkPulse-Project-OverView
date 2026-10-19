@@ -4,7 +4,7 @@
 
 WorkPulse brings task and project workflows, daily reporting, team communication, notifications, and personal planning into one role-oriented application. It supports **Members, Managers, and Admins**, with role-specific interfaces and workspace-aware workflows.
 
-> **Project status:** Core application workflows and the role-based route structure are implemented. Responsive refinement, physical-device checks, and production-readiness verification remain in progress. No live demo URL is listed yet.
+
 
 ## Table of Contents
 
@@ -81,7 +81,7 @@ Authenticated pages use a consistent role-prefixed route convention, for example
 
 ### Messaging and Inbox
 
-The Inbox supports direct conversations plus shared Team Group and Workspace Group conversations. Implemented capabilities include message editing within the permitted time window, copying and deleting supported messages, read receipts, presence status, and loading/error handling when conversations are loaded or switched. Pin/Unpin was removed from the active message action menus in all three role-specific Inboxes.
+The Inbox supports direct conversations plus shared Team Group and Workspace Group conversations. Implemented capabilities include message editing within the permitted time window, copying and deleting supported messages, read receipts, presence status, and loading/error handling when conversations are loaded or switched. 
 
 The data model separates conversations, participants, messages, receipts, and user presence. Database functions support conversation creation and selected messaging actions. Presence handling was updated to scope activity to the selected workspace.
 
